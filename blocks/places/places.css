@@ -1,0 +1,27 @@
+.places {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding-bottom: 66px;
+}
+
+@media (min-width: 767px) {
+    .places {
+        padding: 88px 24px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .places {
+        padding: 45px 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .places {
+        padding: 92px 148px 45px;
+    }
+}
