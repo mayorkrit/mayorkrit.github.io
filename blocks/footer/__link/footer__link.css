@@ -1,21 +1,29 @@
 .footer__link {
-    font-style: normal;
-    font-weight: 400;
-    padding-right: 18px;
-    font-size: 1em;
-    line-height: 1.2;
-    color: #FFFFFF;
+    color: #fff;
+    display: block;
+    font-size: 1.5em;
+    line-height: 1;
     text-decoration: none;
-}
-
-@media all and (max-width: 700px) {
-    .footer__link {
-        font-size: 1,5em;
-        line-height: 1;
-        padding-top: 32px;
-    }
+    margin: 0;
+    padding: 0;
 }
 
 .footer__link:hover {
     opacity: .8;
+}
+
+@media (min-width: 768px) {
+    .footer__link {
+        font-size: 1em;
+        line-height: 1.12;
+        margin: 0 18px 0 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer__link {
+        font-size: 18px;
+        line-height: 1;
+        margin: 0 0 32px;
+    }
 }
