@@ -1,17 +1,16 @@
 .footer__copyright {
-    margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.9em;
-    line-height: 1.2;
-    text-align: right;
-    color: #FFFFFF;
-    padding: 94px 48px 24px;
+    color: #fff;
+    font-size: 0.875em;
+    line-height: 1;
+    /* position: absolute;
+    bottom: 24px;
+    left: 16px; */
 }
 
-@media all and (max-width: 750px) {
+@media (max-width: 767px) {
     .footer__copyright {
-        padding: 0;
+        position: absolute;
+        bottom: 0;
+        left: 16px;
     }
 }

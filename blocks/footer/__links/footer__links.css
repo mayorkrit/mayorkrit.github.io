@@ -1,11 +1,19 @@
 .footer__links {
-    padding: 94px 48px 24px;
-    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 0;
 }
 
-@media all and (max-width: 750px) {
+@media (min-width: 768px) {
     .footer__links {
-        padding: 64px 16px 48px;
-        flex-direction: column;
+        display: flex;
+        margin: 0;
     }
 }
+
+@media (max-width: 767px) {
+    .footer__links {
+        margin: 0 0 16px;
+    }
+}
+
