@@ -6,7 +6,7 @@
     flex-direction: column;
     text-decoration: none;
     padding: 16px;
-    color: #fff;
+    color: #FFFF;
     position: relative;
     background-color: rgba(42, 44, 47, 0.3);
 }
@@ -19,6 +19,7 @@
     position: absolute;
 }
 
-.cover__overlay:hover {
+.cover__overlay:hover::before {
     background-color: rgba(42, 44, 47, 0.8);
+
 }
