@@ -2,15 +2,4 @@
     color: #fff;
     font-size: 0.875em;
     line-height: 1;
-    /* position: absolute;
-    bottom: 24px;
-    left: 16px; */
-}
-
-@media (max-width: 767px) {
-    .footer__copyright {
-        position: absolute;
-        bottom: 0;
-        left: 16px;
-    }
 }

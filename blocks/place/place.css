@@ -5,11 +5,14 @@
     grid-template-rows: repeat(3, max-content);
     gap: 40px;
     width: 100%;
+    margin: 0 0 30px;
   }
   
   @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place {
       gap: 32px;
+      /* column-gap: 12px; */
+      /* row-gap: 32px; */
     }
   }
   
