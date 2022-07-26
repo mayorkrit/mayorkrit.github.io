@@ -8,27 +8,27 @@
     text-align: center;
 }
 
-    .cover:after {
-        content: "";
-        width: 0;
-        height: 0;
-        padding-top: calc(740 / 1184 * 100%);
-    }
+.cover:after {
+    content: "";
+    width: 0;
+    height: 0;
+    padding-top: calc(740 / 1184 * 100%);
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover {
-        margin: 0;
+        margin: 8px 0 0;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover {
-        margin: 20px 0 0;
+        margin: 43px 0 0;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover {
-        margin: 20px 48px 0;
+        margin: 0px 48px;
     }
 }
